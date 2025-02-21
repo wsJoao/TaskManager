@@ -55,6 +55,7 @@ dependencies {
     val hiltVersion = "2.55"
     implementation("com.google.dagger:hilt-android:$hiltVersion")
     ksp("com.google.dagger:hilt-android-compiler:$hiltVersion")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
 
     // Room libs
     val roomVersion = "2.6.1"
